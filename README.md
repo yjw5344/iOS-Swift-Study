@@ -28,12 +28,14 @@ iOS 및 Swift 관련 Study 내용입니다.
 
 <br>
 
+<hr>
+
 __< iOS 구조 >__
 
-CocoaTouch - Foundation(문법), UIKit(화면), ... <- 제일 많이 사용되는 파트
+- CocoaTouch - Foundation(문법), UIKit(화면), ... <- 제일 많이 사용되는 파트
 
-Media - 사진, 영상, 음악, 파일 ,카메라, ...
+- Media - 사진, 영상, 음악, 파일 ,카메라, ...
 
-CoreService - 센서, GPS, ...
+- CoreService - 센서, GPS, ...
 
-CoreOS - 하드웨어, 네트워크, 전원, 배터리와 같은 하드웨어와 관련된 기능 담당
+- CoreOS - 하드웨어, 네트워크, 전원, 배터리와 같은 하드웨어와 관련된 기능 담당
