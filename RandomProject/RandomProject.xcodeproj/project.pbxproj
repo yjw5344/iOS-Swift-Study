@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822FEDDD23DBF51F005B8B8A /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822FEDDC23DBF51F005B8B8A /* RandomViewController.swift */; };
+		822FEDDF23DBF6B5005B8B8A /* RandomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822FEDDE23DBF6B5005B8B8A /* RandomDetailViewController.swift */; };
+		822FEDE123DBF6F2005B8B8A /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822FEDE023DBF6F2005B8B8A /* FoodViewController.swift */; };
+		822FEDE323DBF714005B8B8A /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822FEDE223DBF714005B8B8A /* FoodDetailViewController.swift */; };
 		824ADE3B23DB26CB00647213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ADE3A23DB26CB00647213 /* AppDelegate.swift */; };
 		824ADE3D23DB26CB00647213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ADE3C23DB26CB00647213 /* SceneDelegate.swift */; };
 		824ADE3F23DB26CB00647213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ADE3E23DB26CB00647213 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		822FEDDC23DBF51F005B8B8A /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		822FEDDE23DBF6B5005B8B8A /* RandomDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDetailViewController.swift; sourceTree = "<group>"; };
+		822FEDE023DBF6F2005B8B8A /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		822FEDE223DBF714005B8B8A /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 		824ADE3723DB26CB00647213 /* RandomProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824ADE3A23DB26CB00647213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824ADE3C23DB26CB00647213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				824ADE3C23DB26CB00647213 /* SceneDelegate.swift */,
 				824ADE3E23DB26CB00647213 /* ViewController.swift */,
 				824ADE4023DB26CB00647213 /* Main.storyboard */,
+				822FEDE223DBF714005B8B8A /* FoodDetailViewController.swift */,
+				822FEDE023DBF6F2005B8B8A /* FoodViewController.swift */,
+				822FEDDE23DBF6B5005B8B8A /* RandomDetailViewController.swift */,
+				822FEDDC23DBF51F005B8B8A /* RandomViewController.swift */,
 				824ADE4323DB26CE00647213 /* Assets.xcassets */,
 				824ADE4523DB26CE00647213 /* LaunchScreen.storyboard */,
 				824ADE4823DB26CE00647213 /* Info.plist */,
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				824ADE3F23DB26CB00647213 /* ViewController.swift in Sources */,
+				822FEDE323DBF714005B8B8A /* FoodDetailViewController.swift in Sources */,
+				822FEDDD23DBF51F005B8B8A /* RandomViewController.swift in Sources */,
 				824ADE3B23DB26CB00647213 /* AppDelegate.swift in Sources */,
 				824ADE3D23DB26CB00647213 /* SceneDelegate.swift in Sources */,
+				822FEDE123DBF6F2005B8B8A /* FoodViewController.swift in Sources */,
+				822FEDDF23DBF6B5005B8B8A /* RandomDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
