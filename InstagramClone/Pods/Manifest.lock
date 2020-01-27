@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - PryntTrimmerView (4.0.0)
+  - Realm (4.3.1):
+    - Realm/Headers (= 4.3.1)
+  - Realm/Headers (4.3.1)
+  - RealmSwift (4.3.1):
+    - Realm (= 4.3.1)
+  - SteviaLayout (4.7.3)
+  - SwiftyJSON (4.3.0)
+  - YPImagePicker (4.2.0):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - RealmSwift
+  - SwiftyJSON (~> 4.0)
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PryntTrimmerView
+    - Realm
+    - RealmSwift
+    - SteviaLayout
+    - SwiftyJSON
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  Realm: 31dc40934081ef740f60feedc46d88473cbfeb40
+  RealmSwift: b5199e9a41f67b99f51acf6874a6166f5fbe93d1
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  YPImagePicker: accf310f9526641a84372c0ecf943547d9b1e52c
+
+PODFILE CHECKSUM: c8cedc707c451df0c84647b58257a9e541504298
+
+COCOAPODS: 1.8.4

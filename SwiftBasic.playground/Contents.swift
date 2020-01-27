@@ -77,6 +77,125 @@ lottoProgram()
 lottoProgram()
 lottoProgram()
 
+// ex. 유튜브 프리미엄
+var user = true // true : 유튜브 프리미엄 가입자, false : 유튜브 프리미엄 미가입자
+if user == true {
+    print("광고 제거")
+} else {
+    print("광고 보여주기")
+}
+
+// ex. 만 14세 회원가입
+
+var signInAge = 20
+signInAge = 8
+if signInAge > 14 {
+    print("부모님 동의 없이 가입 가능")
+} else {
+    print("부모님의 동의가 있어야 가입 가능")
+}
+
+// ex. 배민
+
+var orderPrice = Int.random(in: 1...100) * 1000
+
+if orderPrice > 15000 {
+    print("주문 접수 완료")
+} else {
+    print("최소 주문 금랙 15000원을 맞춰주세요")
+}
+
+// ex. 신조어 검색기 : 존맛탱
+var newWord = "JMT"
+if newWord == "JMT"{
+    print("겁나 맛있음")
+} else {
+    print("신조어 검색 결과를 찾지 못했음")
+}
+
+if newWord == "JMT" {
+    print("엄청 맛있음")
+} else if newWord == "#G" {
+    print("시아버지")
+} else if newWord == "스드메" {
+    print("스튜디오 드레스 메이크업")
+} else {
+    print("신조어 검색 결과를 찾지 못했음")
+}
+
+// ex. 주문 횟수 0~4회 1000원 쿠폰, 5~9회 5000원 쿠폰, 10~14회 10000원 쿠폰, 그 이상은 5만원 쿠폰
+var orderCnt = Int.random(in: 1...50)
+print("\n주문 횟수는 \(orderCnt)회 입니다\n")
+if orderCnt >= 0 && orderCnt < 5 {
+    print("1000원 쿠폰")
+} else if orderCnt > 4 && orderCnt < 10 {
+    print("5000원 쿠폰")
+} else if orderCnt >= 10 && orderCnt < 15 {
+    print("10000원 쿠폰")
+} else {
+    print("50000원 쿠폰")
+}
+
+// ex. 배달비 추가금 : 최종 주문 금액 10000원 이하        배달비 3000원,
+//                             10000원 ~ 15000원  배달비 2000원,
+//                             15000원 ~ 20000원  배달비 1000원,
+//                             그 이상의 주문 금액 배달비 없음
+
+print("\n")
+var finalOrderPrice = Int.random(in: 10...30) * 1000
+print("최종 주문 금액은 \(finalOrderPrice)입니다.")
+if finalOrderPrice <= 10000 {
+    print("배달비 3000원")
+} else if finalOrderPrice > 10000 && finalOrderPrice <= 15000 {
+    print("배달비 2000원")
+} else if finalOrderPrice > 15000 && finalOrderPrice <= 20000 {
+    print("배달비 1000원")
+} else {
+    print("배달비 없음")
+}
 
 
+
+print("\n")
+var userPrice = 10000 // 첫번째 케이스에 들어가고 , 다음 case에는 들어가지 않는다.
+
+switch userPrice {
+case 0...10000:
+    print("배달비 3000원")
+case 10000...15000:
+    print("배달비 2000원")
+case 15000...20000:
+    print("배달비 1000원")
+default:
+    print("배달비 없음")
+}
+
+print("\n")
+
+for item in 1...100{
+    print("\(item)위")
+}
+
+print("\n")
+
+var friend = ["철수", "영희", "민수", "Jack", "하하하"]
+friend.append("무지")
+friend.append("카카오")
+friend.append("라인")
+
+friend.insert("두번째", at: 1)
+friend.insert("첫번째", at: 0)
+
+
+for name in friend {
+    print("\(name)는 내 친구")
+}
+
+print("\n")
+
+var numList : [Int] = []
+for i in 1...100{
+    numList.append(i)
+}
+print(numList)
 
